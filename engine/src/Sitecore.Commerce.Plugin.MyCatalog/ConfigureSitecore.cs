@@ -1,4 +1,6 @@
-﻿namespace Sitecore.Commerce.Plugin.MyCatalog
+﻿using Sitecore.Commerce.Plugin.Search;
+
+namespace Sitecore.Commerce.Plugin.MyCatalog
 {
     using System.Reflection;
     using Microsoft.Extensions.DependencyInjection;

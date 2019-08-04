@@ -46,6 +46,8 @@
 
     <PackageReference Include="Sitecore.Commerce.Plugin.CacheWatcher" Version="2.2.*" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Composer" Version="2.2.*" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Coupons" Version="2.2.22" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Tax" Version="2.2.22" />
     <PackageReference Include="Sitecore.Commerce.Provider.FileSystem" Version="2.2.*" />
 
     <PackageReference Include="Sitecore.Commerce.Plugin.Search.Azure" Version="2.2.*" />
