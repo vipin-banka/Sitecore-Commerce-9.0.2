@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{389FC06B-F543-41B8-9874-726DA9878DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A330984-9652-4DA1-99D3-B55E6DEAC6AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.Commerce.Plugin.MyCatalog", "src\Sitecore.Commerce.Plugin.MyCatalog\Sitecore.Commerce.Plugin.MyCatalog.csproj", "{E915F1ED-7B31-44E4-91F0-38A252E95982}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.Commerce.Engine", "src\Sitecore.Commerce.Engine\Sitecore.Commerce.Engine.csproj", "{4950D643-331B-43DA-963D-435BE7287FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E915F1ED-7B31-44E4-91F0-38A252E95982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E915F1ED-7B31-44E4-91F0-38A252E95982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E915F1ED-7B31-44E4-91F0-38A252E95982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E915F1ED-7B31-44E4-91F0-38A252E95982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4950D643-331B-43DA-963D-435BE7287FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4950D643-331B-43DA-963D-435BE7287FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4950D643-331B-43DA-963D-435BE7287FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4950D643-331B-43DA-963D-435BE7287FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E915F1ED-7B31-44E4-91F0-38A252E95982} = {389FC06B-F543-41B8-9874-726DA9878DDC}
+		{4950D643-331B-43DA-963D-435BE7287FD8} = {389FC06B-F543-41B8-9874-726DA9878DDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32813392-1C11-4D75-BF11-1ECBEF674669}
+	EndGlobalSection
+EndGlobal
