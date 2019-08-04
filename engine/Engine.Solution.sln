@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.Commerce.Plugin.My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.Commerce.Engine", "src\Sitecore.Commerce.Engine\Sitecore.Commerce.Engine.csproj", "{4950D643-331B-43DA-963D-435BE7287FD8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Sample.Payments.Braintree", "src\Plugin.Sample.Payments.Braintree\Plugin.Sample.Payments.Braintree.csproj", "{D10CF835-6CA3-49F1-B0F9-BE02276D6465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{4950D643-331B-43DA-963D-435BE7287FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4950D643-331B-43DA-963D-435BE7287FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4950D643-331B-43DA-963D-435BE7287FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10CF835-6CA3-49F1-B0F9-BE02276D6465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10CF835-6CA3-49F1-B0F9-BE02276D6465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10CF835-6CA3-49F1-B0F9-BE02276D6465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10CF835-6CA3-49F1-B0F9-BE02276D6465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E915F1ED-7B31-44E4-91F0-38A252E95982} = {389FC06B-F543-41B8-9874-726DA9878DDC}
 		{4950D643-331B-43DA-963D-435BE7287FD8} = {389FC06B-F543-41B8-9874-726DA9878DDC}
+		{D10CF835-6CA3-49F1-B0F9-BE02276D6465} = {389FC06B-F543-41B8-9874-726DA9878DDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32813392-1C11-4D75-BF11-1ECBEF674669}

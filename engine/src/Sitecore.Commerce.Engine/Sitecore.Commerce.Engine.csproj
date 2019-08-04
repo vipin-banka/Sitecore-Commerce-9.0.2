@@ -47,6 +47,8 @@
     <PackageReference Include="Sitecore.Commerce.Plugin.CacheWatcher" Version="2.2.*" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Composer" Version="2.2.*" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Coupons" Version="2.2.22" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Journaling" Version="2.2.29" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.SQL" Version="2.2.6" />
     <PackageReference Include="Sitecore.Commerce.Plugin.Tax" Version="2.2.22" />
     <PackageReference Include="Sitecore.Commerce.Provider.FileSystem" Version="2.2.*" />
 
@@ -60,6 +62,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Plugin.Sample.Payments.Braintree\Plugin.Sample.Payments.Braintree.csproj" />
     <ProjectReference Include="..\Sitecore.Commerce.Plugin.MyCatalog\Sitecore.Commerce.Plugin.MyCatalog.csproj" />
   </ItemGroup>
 
