@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Publishing.Target.config" />
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Publishing.Target.Commerce.config" />
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Solr.Index.config" />
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Solr.SXA.Index.config" />
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Index.Stratagies.config" />
+    <Content Include="App_Config\Include\zzzzzPreview\Preview.Index.Configuration.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
