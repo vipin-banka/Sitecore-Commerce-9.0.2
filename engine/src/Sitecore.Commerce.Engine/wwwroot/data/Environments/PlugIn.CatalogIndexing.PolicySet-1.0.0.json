@@ -33,6 +33,18 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Catalog.SitecoreCatalogIndexingPolicy, Sitecore.Commerce.Plugin.Catalog",
+        "Name": "SellableItemsIndexPreview",
+        "IncrementalListName": "SellableItemsIncrementalIndexPreview",
+        "DeletedListName": "SellableItemsDeletedIndexPreview",
+        "EntityTypeNames": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog"
+          ]
+        }
+      },
+      {
+        "$type": "Sitecore.Commerce.Plugin.Catalog.SitecoreCatalogIndexingPolicy, Sitecore.Commerce.Plugin.Catalog",
         "Name": "CategoriesIndexMaster",
         "IncrementalListName": "CategoriesIncrementalIndexMaster",
         "DeletedListName": "CategoriesDeletedIndexMaster",
@@ -57,6 +69,18 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Catalog.SitecoreCatalogIndexingPolicy, Sitecore.Commerce.Plugin.Catalog",
+        "Name": "CategoriesIndexPreview",
+        "IncrementalListName": "CategoriesIncrementalIndexPreview",
+        "DeletedListName": "CategoriesDeletedIndexPreview",
+        "EntityTypeNames": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog"
+          ]
+        }
+      },
+      {
+        "$type": "Sitecore.Commerce.Plugin.Catalog.SitecoreCatalogIndexingPolicy, Sitecore.Commerce.Plugin.Catalog",
         "Name": "CatalogsIndexMaster",
         "IncrementalListName": "CatalogsIncrementalIndexMaster",
         "DeletedListName": "CatalogsDeletedIndexMaster",
@@ -72,6 +96,18 @@
         "Name": "CatalogsIndexWeb",
         "IncrementalListName": "CatalogsIncrementalIndexWeb",
         "DeletedListName": "CatalogsDeletedIndexWeb",
+        "EntityTypeNames": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog"
+          ]
+        }
+      },
+      {
+        "$type": "Sitecore.Commerce.Plugin.Catalog.SitecoreCatalogIndexingPolicy, Sitecore.Commerce.Plugin.Catalog",
+        "Name": "CatalogsIndexPreview",
+        "IncrementalListName": "CatalogsIncrementalIndexPreview",
+        "DeletedListName": "CatalogsDeletedIndexPreview",
         "EntityTypeNames": {
           "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
           "$values": [

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{02E93D3E-6D0E-43D7-9C35-D0D3CCB5DD45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{585F8E2A-06E1-49AF-B545-D932EDDC7CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{3589B5DB-C1B6-4AC9-A096-6269EB92BCE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{381DAD24-499E-47AB-876B-F4FADFEEFD12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{CEE3389A-B0E5-49EB-A2E3-F48FFDB986B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.SampleWebsite", "src\Project\Website\code\Website.SampleWebsite.csproj", "{1F45D5D3-48B1-4B81-90A7-0263165EADC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F45D5D3-48B1-4B81-90A7-0263165EADC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F45D5D3-48B1-4B81-90A7-0263165EADC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F45D5D3-48B1-4B81-90A7-0263165EADC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F45D5D3-48B1-4B81-90A7-0263165EADC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEE3389A-B0E5-49EB-A2E3-F48FFDB986B2} = {381DAD24-499E-47AB-876B-F4FADFEEFD12}
+		{1F45D5D3-48B1-4B81-90A7-0263165EADC7} = {CEE3389A-B0E5-49EB-A2E3-F48FFDB986B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {3FA5075D-29C3-44B7-B94F-E23D40C75FDB}
+	EndGlobalSection
+EndGlobal
